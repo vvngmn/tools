@@ -1,0 +1,30 @@
+Tools list:
+$ ngrok --help
+端口转发工具
+NAME:
+   ngrok - tunnel local ports to public URLs and inspect traffic
+"ngrok exposes local networked services behinds NATs and firewalls to the
+    public internet over a secure tunnel."
+Eg. $ ngrok http 8443 (forward the http://*:8443 to like https://301288ea7511.ngrok.io/)
+
+
+$ chromedriver --version
+ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800})
+
+
+$ geckodriver --version
+geckodriver 0.24.0 ( 2019-01-28)
+
+The source code of this program is available from
+testing/geckodriver in https://hg.mozilla.org/mozilla-central.
+
+$ crictl
+
+$ tkn
+
+$ kind: https://github.com/kubernetes-sigs/kind
+kind 即 Kubernetes In Docker，顾名思义，就是将 k8s 所需要的所有组件，全部部署在一个docker容器中，是一套开箱即用的 k8s 环境搭建方案。使用 kind 搭建的集群无法在生产中使用，但是如果你只是想在本地简单的玩玩 k8s，不想占用太多的资源，那么使用 kind 是你不错的选择。同样，kind 还可以很方便的帮你本地的 k8s 源代码打成对应的镜像，方便测试。
+
+$ k9s: https://github.com/derailed/k9s
+K9s - Kubernetes CLI To Manage Your Clusters In Style!
+https://cloud.tencent.com/developer/article/1458891
